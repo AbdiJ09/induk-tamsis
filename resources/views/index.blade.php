@@ -21,5 +21,6 @@
     <x-galeri />
     <!-- kontak -->
     <x-aplikasi />
+    <x-qoutes />
     <x-kontak />
 </x-app-layout>

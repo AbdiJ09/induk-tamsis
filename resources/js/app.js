@@ -2,6 +2,37 @@ import "./bootstrap";
 import scrollreveal from "scrollreveal";
 import "animate.css";
 import emailjs from "@emailjs/browser";
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    loop: true,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+    },
+    autoplay: {
+        delay: false,
+        disableOnInteraction: false,
+    },
+    speed: 2000,
+});
+
 const sr = scrollreveal({
     origin: "top",
     distance: "100px",
@@ -9,17 +40,17 @@ const sr = scrollreveal({
 sr.reveal(".box-tentang", { distance: 0, duration: 2500 });
 sr.reveal(".album-tentang-1", { origin: "left", duration: 2500 });
 sr.reveal(".album-tentang-2", { origin: "right", duration: 2500 });
-sr.reveal(".tentang-text", { delay: 700, origin: "bottom", duration: 2500 });
-sr.reveal(".tentang-title", { delay: 200, origin: "top", duration: 2500 });
+sr.reveal(".tentang-text", { delay: 300, origin: "bottom", duration: 2500 });
+sr.reveal(".tentang-title", { delay: 300, origin: "top", duration: 2500 });
 sr.reveal(".visi-judul", { distance: "0px", duration: 2500 });
 sr.reveal(".visi-text", { distance: "0px", delay: 200, duration: 2500 });
 sr.reveal(".indikator-visi", { distance: "0px", delay: 300, duration: 2500 });
 sr.reveal(".polygon", { origin: "left", delay: 300, duration: 2500 });
-sr.reveal(".visi-1", { distance: "0px", delay: 400, duration: 2500 });
-sr.reveal(".visi-2", { distance: "0px", delay: 600, duration: 2500 });
-sr.reveal(".visi-3", { distance: "0px", delay: 700, duration: 2500 });
-sr.reveal(".visi-4", { distance: "0px", delay: 800, duration: 2500 });
-sr.reveal(".visi-5", { distance: "0px", delay: 500, duration: 2500 });
+sr.reveal(".visi-1", { distance: "0px", delay: 350, duration: 2500 });
+sr.reveal(".visi-2", { distance: "0px", delay: 400, duration: 2500 });
+sr.reveal(".visi-3", { distance: "0px", delay: 450, duration: 2500 });
+sr.reveal(".visi-4", { distance: "0px", delay: 500, duration: 2500 });
+sr.reveal(".visi-5", { distance: "0px", delay: 550, duration: 2500 });
 sr.reveal(".gambar-visi", { origin: "right", duration: 2500 });
 sr.reveal(".box-misi", { origin: "bottom", duration: 2500 });
 sr.reveal(".misi-text", { origin: "top", duration: 2500 });
@@ -69,7 +100,7 @@ document
                 email: event.target.email.value,
                 message: event.target.message.value,
             })
-            .then(console.log("SUCCESS")),
+            .then(alert("Pesan Terkirim!")),
             (error) => {
                 console.log("FAILED", error);
             };

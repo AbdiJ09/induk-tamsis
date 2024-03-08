@@ -19,17 +19,17 @@
 
      <div class="grid grid-cols-3 gap-3 w-full lg:w-[50%]">
          <div class="col-span-2  rounded-lg h-40 w-full overflow-hidden animate__animated animate__fadeInLeft">
-             <img src="{{ asset('image/meeting.jpg') }}"
+             <img src="{{ asset('image/tamansiswa-jkt/kegiatan1.jpg') }}"
                  class="bg-cover w-full h-full object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2"
                  alt="">
          </div>
          <div class="col-span-1  rounded-lg h-40 w-full overflow-hidden animate__animated animate__fadeInRight ">
-             <img src="{{ asset('image/school.jpg') }}"
+             <img src="{{ asset('image/tamansiswa-jkt/kegiatan2.jpg') }}"
                  class="bg-cover w-full h-full object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2"
                  alt="">
          </div>
          <div class="col-span-1  rounded-lg h-40 w-full overflow-hidden animate__animated animate__fadeInRight">
-             <img src="{{ asset('image/game.jpg') }}"
+             <img src="{{ asset('image/tamansiswa-jkt/lomba1.jpg') }}"
                  class="bg-cover w-full h-full object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2"
                  alt="">
          </div>
@@ -39,12 +39,12 @@
          </div>
          <div
              class="col-span-1 col-start-3 rounded-lg h-40 w-full overflow-hidden animate__animated animate__fadeInLeft">
-             <img src="{{ asset('image/lomba.jpg') }}"
+             <img src="{{ asset('image/tamansiswa-jkt/lomba2.jpg') }}"
                  class="bg-cover w-full h-full object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2"
                  alt="">
          </div>
          <div class="col-span-3 rounded-lg h-40 w-full overflow-hidden animate__animated animate__fadeInUp">
-             <img src="{{ asset('image/bg.jpg') }}"
+             <img src="{{ asset('image/tamansiswa-jkt/kegiatan13.jpg') }}"
                  class="bg-cover w-full h-full object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2"
                  alt="">
          </div>

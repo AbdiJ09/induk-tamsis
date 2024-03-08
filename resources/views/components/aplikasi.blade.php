@@ -7,7 +7,7 @@
                 alt="">
             <div class="absolute transition duration-300 ease-in-out w-full translate-y-0 group-hover:-translate-y-36">
                 <h1 class="text-center text-white font-bold text-4xl mb-4 -tracking-tight">Perpustakaan</h1>
-                <a href="http://aplikasi-library.test/" target="_blank">
+                <a href="https://tamansiswa-jkt.org/perpustakaan/" target="_blank">
                     <button class="w-10 h-10 rounded-full p-2 bg-green-500 font-bold text-white mx-auto block"><i
                             class="fa-solid fa-angle-right"></i></button>
                 </a>
@@ -20,7 +20,7 @@
                 alt="">
             <div class="absolute transition duration-300 ease-in-out w-full translate-y-0 group-hover:-translate-y-36">
                 <h1 class="text-center text-white font-bold text-4xl mb-4 -tracking-tight">Pamong</h1>
-                <a href="http://www.aplikasi-pamong.test/" target="_blank">
+                <a href="https://tamansiswa-jkt.org/pamong/" target="_blank">
                     <button class="w-10 h-10 rounded-full p-2 bg-green-500 font-bold text-white mx-auto block"><i
                             class="fa-solid fa-angle-right"></i></button>
                 </a>

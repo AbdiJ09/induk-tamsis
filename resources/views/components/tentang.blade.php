@@ -3,10 +3,10 @@
         <div class="relative w-full flex">
             <div
                 class="relative album-tentang-1 w-full flex before:content-[''] z-10 before:absolute before:top-2/4 before:-translate-y-2/4 before:-left-10 before:w-20 before:h-3/4 before:border-4 before:rounded-lg before:border-[#FEDA0A] before:-z-10">
-                <img src="/image/bg.jpg"
+                <img src="{{ asset('image/tamansiswa-jkt/kegiatan5.jpg') }}"
                     class="rounded-lg  aspect-video lg:aspect-square h-56 lg:w-64 lg:h-80 object-cover" alt="">
             </div>
-            <img src="/image/game.jpg"
+            <img src="{{ asset('image/tamansiswa-jkt/lomba10.jpg') }}"
                 class="rounded-lg album-tentang-2 absolute z-10 top-3/4 lg:top-2/4 -translate-y-2/4  -right-16 lg:-right-20 aspect-video  lg:aspect-square lg:w-52 lg:h-72 object-cover"
                 alt="">
         </div>

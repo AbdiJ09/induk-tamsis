@@ -15,10 +15,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Treant.css">
-    <link rel="stylesheet" href="/build/assets/app-B-gXXBrj.css">
-    <link rel="stylesheet" href="/build/assets/app-BA11tsjU.css">
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    {{-- <link rel="stylesheet" href="/build/assets/app-B-gXXBrj.css"> --}}
+    {{-- <link rel="stylesheet" href="/build/assets/app-BA11tsjU.css"> --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
 
@@ -29,7 +28,7 @@
     <!-- End Header -->
 
     <!-- Main -->
-    <main class="w-full min-h-screen mt-20 lg:mt-28 px-7 lg:px-20 bg-no-repeat bg-cover overflow-x-hidden">
+    <main class="w-full min-h-screen mt-20 lg:mt-28 px-7 lg:px-20 overflow-x-hidden">
         {{ $slot }}
     </main>
     <!-- End Main -->
@@ -38,13 +37,8 @@
     <x-footer />
     <!-- End Footer -->
 
-    <script src="/build/assets/app-QW317hHE.js"></script>
-    <script src="raphael.js"></script>
-    <script src="Treant.js"></script>
-    <script src="basic-example.js"></script>
-    <script>
-        new Treant(chart_config);
-    </script>
+    {{-- <script src="/build/assets/app-QW317hHE.js"></script> --}}
+
     @livewireScripts
 </body>
 

@@ -88,21 +88,20 @@
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input
-                                        type="text" id="name" autocomplete="given-name" placeholder="Your name"
+                                        type="text" id="name" autocomplete="given-name" placeholder="Nama"
                                         class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0"
                                         name="name">
                                 </div>
                                 <div class="mx-0 mb-1 sm:mb-4">
                                     <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input
-                                        type="email" id="email" autocomplete="email"
-                                        placeholder="Your email address"
+                                        type="email" id="email" autocomplete="email" placeholder="Email"
                                         class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0"
                                         name="email">
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label>
-                                <textarea id="message" name="message" cols="30" rows="5" placeholder="Write your message..."
+                                <textarea id="message" name="message" cols="30" rows="5" placeholder="Pesan..."
                                     class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0"></textarea>
                             </div>
                         </div>

@@ -6,8 +6,8 @@
         <div class="relative flex justify-center flex-col lg:flex-row gap-3 my-10">
             <div
                 class="relative img-tujuan w-full lg:w-3/4 before:content-[''] z-10 before:absolute before:2xl:top-2/3 before:top-[70%] before:-translate-y-2/4 before:-left-10 before:hidden before:lg:block before:2xl:w-3/4 before:w-4/5 before:2xl:h-3/4 before:h-3/4 before:border-4 before:rounded-lg before:border-[#FEDA0A] before:-z-10">
-                <img src="{{ asset('image/wisuda.jpg') }}"
-                    class="aspect-video rounded-lg w-full h-60 2xl:w-full 2xl:object-cover" alt="">
+                <img src="{{ asset('image/tamansiswa-jkt/kegiatan12.jpg') }}"
+                    class="aspect-video rounded-lg w-full h-60 2xl:w-full object-cover" alt="">
             </div>
             <div class="lg:ms-4 w-full 2xl:w-full">
                 <h4 class="text-2xl font-bold text-yellow-300 tracking-wide text-tujuan">Tujuan</h4>
@@ -66,7 +66,7 @@
             </div>
             <div
                 class="relative output-image w-full mt-6 lg:w-2/4 before:content-[''] z-10 before:absolute before:top-[70%] before:-translate-y-2/4 before:-right-5 before:2xl:right-[40%]  before:w-full before:2xl:w-2/4 before:h-3/4 before:2xl:h-3/4 before:border-4 before:rounded-lg before:hidden before:lg:block before:border-green-500 before:-z-10">
-                <img src="{{ asset('image/output.jpg') }}"
+                <img src="{{ asset('image/tamansiswa-jkt/lomba11.jpg') }}"
                     class="aspect-square rounded-lg w-full h-40 lg:w-80 lg:h-80 2xl:w-96 2xl:h-96 object-cover shadow-lg "
                     alt="">
             </div>

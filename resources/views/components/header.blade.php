@@ -3,7 +3,7 @@
           <div class="flex items-center gap-2">
               <a href="/"><img src="{{ asset('image/logo_tamsis.png') }}" class="w-8 lg:w-10" alt="tamsis"></a>
               <h1 class="text-lg lg:text-xl font-bold font-sans tracking-wide text-gray-700">
-                  AJ
+                  Tamansiswa
               </h1>
 
           </div>
@@ -51,6 +51,10 @@
                           class="text-gray-600 nav-link tracking-wide w-52 lg:w-auto block py-2 px-4 lg:p-0 rounded-full"><i
                               class="fa-solid fa-grip me-1"></i>
                           Aplikasi</a></li>
+                  <li><a href="#quotes"
+                          class="text-gray-600 nav-link tracking-wide w-52 lg:w-auto block py-2 px-4 lg:p-0 rounded-full"><i
+                              class="fa-solid fa-quote-left me-1"></i>
+                          Quotes</a></li>
                   <li><a href="#kontak"
                           class="text-gray-600 nav-link tracking-wide w-52 lg:w-auto block py-2 px-4 lg:p-0 rounded-full"><i
                               class="fa-solid fa-envelope me-1"></i>
