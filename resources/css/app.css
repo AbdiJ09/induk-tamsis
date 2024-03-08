@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+body::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    @apply bg-green-500 rounded-lg;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    @apply bg-green-700;
+}
+.kotak {
+    transition: all ease-in-out 0.5s;
+    animation: slidetop 0.5s ease forwards;
+    opacity: 0;
+    animation-delay: calc(0.2s * var(--i));
+}
+@keyframes slidetop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.chart {
+    @apply w-full;
+}
+
+.nodeExample1 {
+    @apply relative w-[350px] p-3;
+}
+.nodeExample1 p.node-name {
+    @apply bg-orange-400 rounded-r-full py-2 ps-24 pe-2 w-72 font-bold text-[1rem];
+}
+.nodeExample1 p.node-title {
+    @apply bg-black rounded-r-full text-white py-2 ps-24 pe-3 w-fit;
+}
+.nodeExample1 img {
+    @apply w-[8rem] h-[7rem] absolute -top-0 -left-5 object-cover;
+}
+.nodeExample1 img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.nav-link.active {
+    @apply bg-green-500 py-2 px-4 text-white transition duration-300 ease-in-out;
+}
