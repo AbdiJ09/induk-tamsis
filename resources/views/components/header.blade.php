@@ -3,7 +3,7 @@
           <div class="flex items-center gap-2">
               <a href="/"><img src="{{ asset('image/logo_tamsis.png') }}" class="w-8 lg:w-10" alt="tamsis"></a>
               <h1 class="text-lg lg:text-xl font-bold font-sans tracking-wide text-gray-700">
-                  Tamansiswa
+                  AJ
               </h1>
 
           </div>
