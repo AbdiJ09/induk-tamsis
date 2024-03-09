@@ -15,20 +15,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/build/assets/app-BEkac1vX.css">
+    <link rel="stylesheet" href="/build/assets/app-C6Gaxb5O.css">
     <link rel="stylesheet" href="/build/assets/app-DephoxPn.css">
-    <script src="/build/assets/app-C-oGnuCb.js"></script>
     @livewireStyles
 </head>
 
-<body class="font-sans">
+<body class="font-sans ">
 
     <!-- Header -->
-    <x-header />
+    @if (Route::currentRouteName() === 'index')
+        <x-header />
+    @endif
     <!-- End Header -->
 
     <!-- Main -->
-    <main class="w-full min-h-screen mt-20 lg:mt-28 px-7 lg:px-20 overflow-x-hidden">
+    <main
+        class="w-full min-h-screen  {{ Route::currentRouteName() === 'index' ? 'px-7 lg:px-20 mt-20 lg:mt-28' : '' }} overflow-x-hidden">
         {{ $slot }}
     </main>
     <!-- End Main -->
@@ -36,6 +38,7 @@
     <!-- Footer -->
     <x-footer />
     <!-- End Footer -->
+    <script src="/build/assets/app-Dz7wAALT.js"></script>
 
     @livewireScripts
 </body>

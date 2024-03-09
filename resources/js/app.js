@@ -32,7 +32,43 @@ const swiper = new Swiper(".mySwiper", {
     },
     speed: 2000,
 });
-
+const swiperr = new Swiper(".mySwiper1", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+});
+const swiper2 = new Swiper(".mySwiper2", {
+    loop: true,
+    spaceBetween: 10,
+    effect: "creative",
+    creativeEffect: {
+        prev: {
+            // will set `translateZ(-400px)` on previous slides
+            translate: [0, 0, -400],
+        },
+        next: {
+            // will set `translateX(100%)` on next slides
+            translate: ["100%", 0, 0],
+        },
+    },
+    speed: 1000,
+    thumbs: {
+        swiper: swiperr,
+    },
+});
+const swiperGaleri = new Swiper(".swiperGaleri", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    effect: "fade",
+    speed: 1000,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
 const sr = scrollreveal({
     origin: "top",
     distance: "100px",

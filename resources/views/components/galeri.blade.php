@@ -33,6 +33,9 @@
             <img src="{{ asset('image/tamansiswa-jkt/lomba9.jpg') }}"
                 class="bg-cover w-full h-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-125 hover:rotate-2">
         </div>
-
     </div>
+    <a href="{{ route('galeri') }}" wire:navigate>
+        <button class="block mx-auto mt-4 bg-[#FEDA0A] text-black font-semibold py-2 px-4 rounded-full">Lihat
+            semua</button>
+    </a>
 </section>

@@ -52,30 +52,38 @@
         Jakarta</h1>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 justify-items-center my-10 w-full">
         <div class="flex items-center justify-center  w-3/4 misi-1">
-            <div class="cursor-pointer" onclick="misi_1.showModal()">
+            <div class="">
                 <img src="/image/vector.svg" class="bg-green-500 mx-auto rounded-full w-14 h-14 p-2 -translate-y-3"
                     alt="">
                 <p class="text-neutral-300 text-center">Dikenal oleh masyarakat sebagai perguruan yang berkualitas.</p>
+                <button
+                    class="block mx-auto mt-4 bg-green-500 text-white font-semibold tracking-wide  py-2 px-4 rounded-lg"
+                    style="text-shadow: 1px 1px rgba(0, 0, 0, 0.5);" onclick="misi_1.showModal()">Detail</button>
                 <x-modal-misi-1 />
             </div>
             <div class="w-[4px] translate-x-8 h-60 bg-neutral-500 garis"></div>
         </div>
-        <div class="flex items-center justify-center flex-col w-3/4 misi-2 cursor-pointer" onclick="misi_2.showModal()">
+        <div class="flex items-center justify-center flex-col w-3/4 misi-2 ">
             <img src="/image/Group 10.svg" class="bg-green-500 rounded-full w-14 h-14 p-2 -translate-y-3"
                 alt="">
             <p class="text-neutral-300 text-center">Menjadi Sekolah Pilihan Utama Masyarakat.</p>
+            <button class="block mx-auto mt-4 bg-green-500 text-white font-semibold tracking-wide  py-2 px-4 rounded-lg"
+                style="text-shadow: 1px 1px rgba(0, 0, 0, 0.5);" onclick="misi_2.showModal()">Detail</button>
             <x-modal-misi-2 />
         </div>
-        <div class="flex items-center justify-center w-3/4 misi-3 cursor-pointer" onclick="misi_3.showModal()">
-            <div class="w-[4px]  h-60 bg-neutral-500 -translate-x-8 garis"></div>
+        <div class="flex items-center justify-center w-3/4 misi-3 ">
+            <div class="w-[5px]  h-60 bg-neutral-500 -translate-x-8 garis"></div>
             <div class="">
                 <img src="/image/Vector (1).svg" class="bg-green-500 mx-auto rounded-full w-14 h-14 p-2 -translate-y-3"
                     alt="">
                 <p class="text-neutral-300 text-center">
                     Menghasilkan Lulusan yang mampu meningkatkan kapasitas dalam olah Cipta, Rasa, dan Karsa.
                 </p>
+                <button
+                    class="block mx-auto mt-4 bg-green-500 text-white font-semibold tracking-wide  py-2 px-4 rounded-lg"
+                    style="text-shadow: 1px 1px rgba(0, 0, 0, 0.5);" onclick="misi_3.showModal()">Detail</button>
+                <x-modal-misi-3 />
             </div>
-            <x-modal-misi-3 />
         </div>
     </div>
 </section>

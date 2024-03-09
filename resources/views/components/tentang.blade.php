@@ -7,15 +7,15 @@
                     class="rounded-lg  aspect-video lg:aspect-square h-56 lg:w-64 lg:h-80 object-cover" alt="">
             </div>
             <img src="{{ asset('image/tamansiswa-jkt/lomba10.jpg') }}"
-                class="rounded-lg album-tentang-2 absolute z-10 top-3/4 lg:top-2/4 -translate-y-2/4  -right-16 lg:-right-20 aspect-video  lg:aspect-square lg:w-52 lg:h-72 object-cover"
+                class="hidden lg:block rounded-lg album-tentang-2 absolute z-10 top-3/4 lg:top-2/4 -translate-y-2/4  -right-16 lg:-right-40 aspect-video  lg:aspect-square lg:w-52 lg:h-72 object-cover"
                 alt="">
         </div>
         <div class="flex flex-col">
-            <h1 class="lg:ms-14 mb-5 tentang-title text-3xl font-bold tracking-wide w-52  leading-[2.8rem]">Tentang
+            <h1 class="lg:ms-32 mb-5 tentang-title text-3xl font-bold tracking-wide w-52  leading-[2.8rem]">Tentang
                 <span class="text-white bg-[#FEDA0A] rounded-lg px-2">Tamansiswa</span>
             </h1>
-            <div class="bg-white tentang-text p-3 rounded-lg z-30 ">
-                <p class="text-start  text-gray-600 ">Taman Siswa (Taman berarti tempat bermain atau tempat
+            <div class="bg-green-500 tentang-text p-3 rounded-lg z-30 lg:ms-24">
+                <p class="text-start  text-white ">Taman Siswa (Taman berarti tempat bermain atau tempat
                     belajar, dan
                     Siswa berarti murid) adalah nama sekolah yang didirikan oleh Ki Hadjar Dewantara pada tanggal 3 Juli
                     tahun 1922 di Yogyakarta. Pada waktu pertama kali didirikan, sekolah Taman Siswa ini diberi nama
