@@ -1,5 +1,6 @@
 <section id="visi" class=" lg:px-10 py-8 rounded-xl">
-    <h1 class="text-3xl text-green-500 font-bold visi-judul">Visi</h1>
+    <h1 class="text-3xl text-green-500 font-bold visi-judul">Visi <span class="text-gray-700">Tamansiswa Jakarta</span>
+    </h1>
     <p class="text-gray-600 mt-4 visi-text">Menjadi Perguruan yang ternama di jakarta, berkarakter luhur, Demokratis
         modern
         dan
@@ -48,7 +49,7 @@
 </section>
 <section id="misi" class="lg:px-10 py-3 mt-32 rounded-lg bg-[#474747] box-misi px-2 overflow-hidden">
     <h1 class="text-center text-white capitalize text-xl lg:text-2xl font-semibold misi-text"><span
-            class="text-green-500">Misi</span> Perguruan Tamansiswa Cabang
+            class="text-green-500">Misi</span> Perguruan Tamansiswa
         Jakarta</h1>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 justify-items-center my-10 w-full">
         <div class="flex items-center justify-center  w-3/4 misi-1">

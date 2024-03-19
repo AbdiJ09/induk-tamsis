@@ -1,6 +1,6 @@
 <section id="tujuan" class="mt-14 px-4 mb-32">
     <h1 class="text-2xl lg:text-3xl font-bold text-gray-700 head-tujuan"><span class="text-yellow-300">Tujuan</span>
-        Tamansiswa Cabang
+        Tamansiswa
         Jakarta</h1>
     <div class="mt-4">
         <div class="relative flex justify-center flex-col lg:flex-row gap-3 my-10">

@@ -11,11 +11,13 @@
                 alt="">
         </div>
         <div class="flex flex-col">
-            <h1 class="lg:ms-32 mb-5 tentang-title text-3xl font-bold tracking-wide w-52  leading-[2.8rem]">Tentang
-                <span class="text-white bg-[#FEDA0A] rounded-lg px-2">Tamansiswa</span>
-            </h1>
+            <div class="lg:ms-32 mb-5 tentang-title w-72  ">
+                <h1 class="font-bold tracking-wide text-3xl leading-[2.8rem]">Tentang
+                </h1>
+                <span class="text-white text-3xl bg-[#FEDA0A] rounded-lg px-2">Tamansiswa Jakarta</span>
+            </div>
             <div class="bg-green-500 tentang-text p-3 rounded-lg z-30 lg:ms-24">
-                <p class="text-start  text-white ">Taman Siswa (Taman berarti tempat bermain atau tempat
+                <p class="text-start  text-white ">Tamansiswa (Taman berarti tempat bermain atau tempat
                     belajar, dan
                     Siswa berarti murid) adalah nama sekolah yang didirikan oleh Ki Hadjar Dewantara pada tanggal 3 Juli
                     tahun 1922 di Yogyakarta. Pada waktu pertama kali didirikan, sekolah Taman Siswa ini diberi nama
